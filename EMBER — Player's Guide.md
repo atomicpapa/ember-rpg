@@ -66,6 +66,10 @@ Your character is saved to a file and **carries forward between adventures** —
 - **Speak up about your tags.** If you think something about you or your gear should help, say so.
 - **Missing isn't failing the game.** It hands you experience and hands the story a twist.
 
+## Where this comes from
+
+If EMBER feels familiar, that's on purpose. Its core is built on the **Powered by the Apocalypse** family of tabletop games — the 2d6 "success / success-at-a-cost / miss" spread and its fiction-first style come from **Apocalypse World** (D. Vincent Baker & Meguey Baker), with a nod to **Dungeon World** for its fantasy flavor and to **Ironsworn** (Shawn Tomkin) for solo play. EMBER adds its own genre-agnostic stats, scars, genre "lenses," persistent characters, and the design for being run by an AI Game Master. If you've enjoyed EMBER, those games are well worth your time.
+
 ---
 
 *Ready to play? Have the AI load the Core Engine and a Genre Pack, tell it "Run Session Zero and be my Game Master," grab your 2d6, and go. Want the exact numbers behind any of this? They're all in `EMBER — Core Engine.md`.*
