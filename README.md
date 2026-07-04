@@ -16,6 +16,8 @@ Paste the rules to an AI, tell it to run Session Zero, and play a solo adventure
 
 ## How to play
 
+**You'll need two six-sided dice (2d6)** — physical dice or any dice-roller app. That's the only thing to bring; you roll, the AI runs everything else.
+
 1. Paste **`EMBER — Core Engine.md`** plus one **Genre Pack** (e.g. `EMBER — Horror.md`) into your AI of choice.
 2. Tell it: *"Run Session Zero and be my Game Master."*
 3. Build a character (or pick a pre-gen) and start playing. Roll real dice when asked and report the results.
