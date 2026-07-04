@@ -26,6 +26,7 @@ Paste the rules to an AI, tell it to run Session Zero, and play a solo adventure
 4. To resume later, also paste your **Character** file and **Save** file.
 
 Want to play hands-free on your phone? See **[`PLAYING-BY-VOICE.md`](PLAYING-BY-VOICE.md)** (untested — feedback wanted).
+On a computer, connect a filesystem MCP for **true autosave** (the AI reads/writes your files directly) — see **[`PLAYING-ON-DESKTOP.md`](PLAYING-ON-DESKTOP.md)**.
 
 ## Files
 
