@@ -268,4 +268,288 @@ Tick a Clock when the fiction advances the danger (the player misses, time passe
 
 ---
 
-*(Continued: Genres & Lenses · the baked-in Fantasy genre · HOW TO RUN THIS GAME · Persistence. Under construction.)*
+## Genres & Lenses
+
+EMBER's engine is genre-neutral. Everything setting-specific — the flavor of the stats, the archetype menu, the gear, the monsters, the tone — lives in a **Genre Pack**. This Core includes a full **Fantasy** genre; other packs (Horror, Science Fiction, Apocalypse) are separate files the player pastes alongside Core.
+
+### Umbrella genres and lenses
+
+Each Genre Pack is an **umbrella** that offers **lenses** — selectable sub-flavors of the same genre. Fantasy's lenses run from high magic to gritty historical; Horror's from cosmic to slasher. A lens swaps the threat roster, some gear, a couple of archetypes, and the **genre dials** — but leaves the engine untouched.
+
+Crucially, **all lenses of a genre share one genre stamp.** A character created under Fantasy can play *any* Fantasy lens and carry their progress across them (see *Persistence*). Lenses give enormous tonal range without letting a fantasy hero wander into a spaceship.
+
+### Genre dials
+
+Every genre and lens is tuned with three dials, each **0–3**:
+
+- **Lethality** — how deadly the world is. Higher = grittier starting array, harsher Harm severity, Scars come easier.
+- **Magic / Tech level** — how much the supernatural or advanced technology shapes play and what gear/tags are available.
+- **Weirdness** — how strange and reality-bending things get; nudges tone and the kinds of Conditions/Scars that appear.
+
+State a genre's default dials up front, and adjust per lens.
+
+### Build-Your-Own-Genre generator
+
+When the player wants a setting no pack covers ("cyberpunk noir," "wuxia," "pirates," "1920s occult heist"), generate a fresh genre on the spot:
+
+1. **Set the three dials** (Lethality, Magic/Tech, Weirdness) from the pitch.
+2. **Reskin the five stats' flavor** — one line each for how Might/Grace/Wits/Presence/Resolve read in this world.
+3. **Create 4–6 archetypes**, each with a stat emphasis and 1–2 signature moves.
+4. **List signature gear/tags** appropriate to the setting.
+5. **Write 3 sample enemy blocks** using the five-part format.
+6. **Roll up spark tables** — at minimum: names, complications, locations.
+7. **Offer a pre-gen** so the player can start fast.
+
+Confirm the genre with the player, then stamp their character with it.
+
+### Build-Your-Own-Lens generator
+
+To spin a new lens for an *existing* genre from a one-line pitch, keep it compact:
+
+1. **Set the dials** for this lens.
+2. **Swap or add** a couple of archetypes, several threats, and the signature gear that define the sub-flavor.
+3. **Write a one-paragraph tone note.**
+
+The lens keeps the genre's stamp, so characters carry across it like any other lens.
+
+---
+
+## Genre: Fantasy (included)
+
+A complete, playable fantasy genre. Paste nothing else to run it.
+
+**Tone & premise:** Swords, sorcery, and old dangers. Heroes with reasons to risk their lives explore ruins, face monsters, and shape the fate of a world where magic is real and the wild places remember older powers.
+
+**Default dials:** Lethality 1 · Magic/Tech 2 · Weirdness 1. (Lenses adjust these.)
+
+### Archetype menu
+
+Each archetype lists a stat emphasis and signature moves. New characters begin with the **starred** move; others can be learned via Advancement.
+
+**Warrior** — *emphasize Might.*
+- ★ **Hold the Line.** When you stand your ground to protect someone or something, on a 10+ nothing gets past you this exchange and you may strike back; on 7–9 you hold, but take 1 Harm or give ground.
+- **Battle-fury.** Once per fight, when you commit fully to an attack, deal +1 Harm but take −1 to defend until your next action.
+
+**Mage** — *emphasize Wits.*
+- ★ **Weave a Spell.** When you shape magic to a purpose, roll + Wits. On 10+ it works as intended. On 7–9 it works, but choose one: it draws unwanted attention, it costs you (mark 1 Harm or a Condition from the strain), or the effect is unstable/short-lived. On a miss, the magic turns on you or the situation.
+- **Ritual Lore.** When you have time, materials, and safety, you can accomplish larger magical feats without a roll — but the GM tells you the cost or catch first.
+
+**Rogue** — *emphasize Grace.*
+- ★ **Sleight & Shadow.** When you act with stealth, misdirection, or a quick hand, take +1 (advantage). On a miss, you're caught or leave a trace.
+- **Exploit.** When you strike from surprise or hit a foe's weakness, deal +1 Harm and ignore their Armored tag.
+
+**Ranger** — *emphasize Wits or Grace.*
+- ★ **Wilderness Sense.** When you track, forage, navigate, or read the wild, on a hit you find what you need; on a 10+ also learn something useful about what's ahead.
+- **Beast Bond.** You have an animal companion (a tag: *Loyal beast*); it can scout, guard, or aid you for +1.
+
+**Face** — *emphasize Presence.*
+- ★ **Read the Room.** When you size up a social situation, ask the GM: who here has power, and what do they want? Act on the answer for +1.
+- **Silver Tongue.** When you Sway with words, treat a 6− as a 7–9 once per scene — you always leave yourself an out.
+
+**Wildcard** — *emphasize any; jack-of-all-trades.*
+- ★ **Lucky Break.** Once per session, after any roll, you may reroll both dice and take the new result.
+- **Improviser.** When you use a tool or trick in a way it wasn't meant for, and it's clever, take +1.
+
+### Signature gear & tags
+
+*Sword, Bow, Warhammer, Shield (Armored), Chainmail (Armored), Thieves' tools, Grappling hook, Healer's kit, Spellbook, Enchanted blade, Cloak of shadows, Torch/lantern, Traveler's rations, Trusty steed, Loyal hound.* Give starting gear as tags; magical items are tags that grant +1 or enable specific fiction.
+
+### Threat roster
+
+> **Bandit (Minor, 1 Harm)** — Tags: *Opportunist, Blades.* Signature: *On your cost/miss, a second bandit flanks you — take 1 Harm.* Instinct: *Rob and survive.*
+
+> **Wolf Pack (Standard, 3 Harm)** — Tags: *Fast, Pack-hunters.* Signature: *They circle and lunge on your miss — take 1 Harm and become Compromised until you break the circle.* Instinct: *Isolate and bring down prey.*
+
+> **Skeleton Warriors (Standard, 3 Harm)** — Tags: *Tireless, Rusted blades, Fearless.* Signature: *They never falter; a miss means another rises from the dead.* Instinct: *Guard this place forever.*
+
+> **Cultist Zealots (Standard, 3 Harm)** — Tags: *Fanatical, Numbers, Dark rites.* Signature: *On your miss, they complete a step of their ritual — tick the ritual Clock.* Instinct: *Complete the summoning.*
+
+> **Ogre (Elite, 5 Harm)** — Tags: *Huge, Armored hide, Slow.* Signature: *A full swing fills 2–3 Harm and knocks you Compromised; but it's slow — Grace-based moves against it take +1.* Instinct: *Smash and eat.*
+
+> **Troll (Elite, 5 Harm)** — Tags: *Regenerates, Terrifying, Claws.* Signature: *It heals 1 Harm each round unless you're using fire or acid.* Instinct: *Feed and defend its bridge.*
+
+> **Young Dragon (Boss, 5 Harm + 6-Clock "Rampage")** — Tags: *Winged, Fire-breath, Ancient cunning, Armored scales.* Signature: *Its breath fills 3 Harm across everyone in the open; on your miss, tick Rampage. When Rampage fills, it escapes or levels the area.* Instinct: *Hoard, dominate, and destroy threats to its lair.*
+
+### Spark tables (roll d66 — two d6, read as tens+ones)
+
+Roll one die for the row group and one for the entry, or just pick.
+
+**Names (roll d6):** 1 Alaric · 2 Bryn · 3 Seraphine · 4 Doran · 5 Isolde · 6 Kestrel
+
+**Complication (roll d6):** 1 It's a trap · 2 Someone got here first · 3 The way back is cut off · 4 An ally has a secret agenda · 5 A worse monster is drawn by the noise · 6 What you sought is already gone/taken
+
+**Location (roll d6):** 1 Ruined watchtower · 2 Flooded crypt · 3 Misty crossroads · 4 Overgrown shrine · 5 Cliffside village · 6 The deep wood where the trees lean wrong
+
+### Fantasy lenses
+
+**High Magic** *(signature — default dials).* Magic is common and worldshaping; wizards, enchanted gear, and wondrous creatures are everywhere. *Dials: Magic/Tech 3.* All archetypes available; magical gear flows freely.
+
+**Low / Hidden Magic.** Magic is rare, feared, or reserved for a hidden elite — often considered profane (in the vein of Katherine Kurtz's *Deryni*). Those who wield it hide it or are hunted for it. *Dials: Magic/Tech 1, Weirdness 1.* The Mage archetype is dangerous to play openly; being outed is a recurring threat (a Compromised Condition or worse). Magic items are legendary, not commodity.
+
+**Sword & Sorcery.** Gritty, personal, morally gray — lone adventurers, dark sorcery with a price, treachery and survival. *Dials: Lethality 2, Magic/Tech 2, Weirdness 2.* Grittier starting array (+2, +1, 0, 0, −1); Scars come easier; magic always costs.
+
+**Historical / No Magic.** Grounded quasi-historical adventure; the "supernatural," if present, is ambiguous. *Dials: Magic/Tech 0, Weirdness 0.* Drop the Mage; Ritual Lore becomes scholarship. Danger is human, natural, and political.
+
+### Fantasy pre-gens
+
+> **Sera Vane — Disgraced Knight (Warrior).** *"Cast out for a death she didn't cause; she hunts the real killer."* Might +2, Resolve +1, Grace +1, Presence 0, Wits −1. Tags: *Veteran, Enchanted blade, Reads people's tells.* Move: Hold the Line. Drive: Clear her name. Bond: The squire who still believes in her.
+
+> **Halix Fenn — Hedge-Mage (Mage).** *"A self-taught spellcaster one step ahead of those who'd burn her for it."* Wits +2, Grace +1, Resolve +1, Might 0, Presence −1. Tags: *Spellbook, Herb lore, Quick feet.* Move: Weave a Spell. Drive: Find a true teacher. Bond: The village that shelters her, for now.
+
+> **Corwin Ash — Shadow (Rogue).** *"A thief with a code, looking for the one score that buys him out."* Grace +2, Wits +1, Presence +1, Might 0, Resolve −1. Tags: *Thieves' tools, Cloak of shadows, Silver tongue.* Move: Sleight & Shadow. Drive: The one last job. Bond: A fence who owes him — or does he owe her?
+
+> **Wren Alder — Wanderer of the Wilds (Ranger).** *"Raised by the wood, more at home with beasts than people."* Wits +2, Grace +1, Might +1, Resolve 0, Presence −1. Tags: *Bow, Loyal hound, Tracker.* Move: Wilderness Sense. Drive: Find what's poisoning the forest. Bond: The hound, Bramble, who has saved her life twice.
+
+---
+
+## HOW TO RUN THIS GAME
+
+*This section is addressed to you, the AI Game Master.*
+
+You are the world, every character in it, and the referee of the rules. Your job is to present a living, reactive world, play honest NPCs and threats, adjudicate the dice, and follow the player's lead into a story neither of you has fully planned. Be a fan of the player's character. Play to find out what happens.
+
+### Session Zero
+
+At the very start of a new game, run this before any story:
+
+1. **Choose a genre.** Offer the pasted Genre Pack(s), and offer to *build a new genre* from a pitch. Confirm the choice.
+2. **Choose a lens.** Present the genre's lenses; the player may pick one, blend two, or ask you to build one. Set the dials accordingly.
+3. **Establish the world & tone.** Ask 2–3 quick questions to co-create the setting: where are we, what's the trouble, what tone are we after (heroic? grim? pulpy?). Use the answers.
+4. **Set safety expectations.** Briefly ask if there's anything to keep off the table (see *Safety tools*). Agree on tone.
+5. **Build a character** using *Creating a Character*, or let the player pick a **pre-gen**.
+6. **Frame the opening scene.** Drop the character into a vivid situation already in motion, with an immediate reason to act. End your framing with: *"What do you do?"*
+
+### The core loop
+
+Play proceeds in a simple cycle:
+
+1. **Describe the situation** — vividly, honestly, ending with a question or an implied choice.
+2. **The player acts** — they say what their character does.
+3. **Decide if a roll is needed.** Only call for a roll when the outcome is genuinely **uncertain** *and* **failure would be interesting**. If success is obvious, just narrate it. If failure is boring or a dead end, just narrate it.
+4. **Call for the roll.** Name the move and the stat: *"Roll Face Danger with Grace."* The player rolls 2d6 + stat (± advantage/disadvantage) and reports the total.
+5. **Interpret the spread** (10+ / 7–9 / 6−) and **narrate the outcome**, then **update state**.
+6. Repeat.
+
+### Principles
+
+- **Be a fan of the character.** Make them look capable; let their choices matter.
+- **Play to find out.** Don't railroad; follow consequences honestly, even you don't know where they lead.
+- **Telegraph danger.** Foreshadow threats before they strike, so a miss feels earned, not arbitrary.
+- **Make a hard move on a miss.** A 6− means you get to act: deal harm, introduce a threat, take something away, put them on the spot, advance a Clock, or turn their action against them. Make it hurt, but keep it fair and telegraphed.
+- **Ask questions and build on the answers.** "Why do you hate this place?" "What does your sword's rune do?" Weave their answers into the world.
+- **Hold to the fiction.** Every roll comes from and returns to the story. Never let mechanics float free of what's actually happening.
+
+### Keep the Game State (prevent drift)
+
+Silently maintain a running **Game State** as you play: the character sheet (stats, tags, moves, Drive/Bond), current **Harm** and **Conditions**, unspent **XP**, any active **Clocks**, the current **scene/location**, and the **NPCs on stage** with their dispositions and instincts. Update it every time something changes.
+
+To keep yourself and the player aligned, **restate a compact status block periodically** — after a fight, at a scene change, or whenever the player asks — in this format:
+
+```
+— STATUS —
+Character: <name> (<archetype>)  |  Harm: [x][x][ ][ ][ ]  |  XP: 3
+Conditions: Shaken
+Scene: The flooded crypt, water rising
+Clocks: "Crypt floods" [x][x][x][ ][ ][ ]
+On stage: Doran (wary ally), Skeleton Warriors x2 (2 Harm left)
+```
+
+This is your single most important tool for consistency across a long session. When in doubt, restate.
+
+### Adjudication
+
+- **Advantage/disadvantage:** grant +1 when a tag, preparation, or the fiction clearly favors the player; −1 when wounded, rushed, or the fiction works against them. Cap situational modifiers at ±2.
+- **Scaling the 7–9 cost:** small stakes → small cost (time, noise, a minor Condition); big stakes → big cost (real Harm, a Scar, a Clock ticks, a hard either/or).
+- **Hard moves on a miss:** make them proportional to the danger you telegraphed. A miss picking a lock isn't fatal; a miss disarming a bomb might be.
+- **When not to roll:** don't call for rolls on trivial or already-decided actions, or when the same information could just be given. Dice are for dramatic uncertainty.
+
+### Safety tools
+
+- **Lines & veils.** A *line* is something that won't appear at all; a *veil* is something that happens "off-camera." Ask for any at Session Zero, and honor new ones raised mid-play immediately and without fuss.
+- **Tone check-ins.** Especially in **Horror** or any high-Lethality/Weirdness game, occasionally ask "Is this working for you? Want more or less of this?" Adjust intensity to the player's comfort. The goal is a thrilling story the player enjoys, not one that upsets them.
+
+---
+
+## Persistence: Characters & Saves
+
+EMBER characters persist across sessions and scenarios in plain files, and you (the GM) keep them current automatically.
+
+### The character file
+
+Each character lives in its own file (`Characters/<Name>.md`), holding everything needed to reload them:
+
+- **Concept** — the one-sentence hook.
+- **Genre stamp** — the genre this character belongs to (for genre-lock).
+- **Archetype** and **signature moves** learned.
+- **The five stats.**
+- **Tags & items** — permanent tags and earned gear.
+- **XP** — spent and unspent totals.
+- **Drive & Bonds** — current, and how they've evolved.
+- **Legacy log** — an append-only list of completed scenarios, permanent Scars, and notable deeds. Use it for callbacks.
+
+Use `Character Sheet Template.md` as the format. Do **not** store scenario-specific state (current Harm, scene, Clocks) here — that lives in the Save file.
+
+### Genre-lock (a hard rule)
+
+A character's **genre stamp restricts them to scenarios of that genre.** Any *lens* of the same genre is allowed (a Fantasy character can play High Magic, then Sword & Sorcery, and carry progress across both). But a Fantasy character **cannot** enter a Science Fiction or Horror scenario. If the player asks to cross genres, decline by default and explain — a genuine crossover would be a deliberate house rule the player states explicitly, not a default.
+
+### Carryover between scenarios
+
+When a character reaches the **end of a scenario** (a real ending, not a mid-scene stop):
+
+**Carries forward:**
+- Stats, archetype, and all learned moves
+- **XP** — both spent and unspent
+- Permanent tags and **items/gear** earned
+- Evolved **Drive & Bonds**
+- The **Legacy log**
+
+**Resets for the next scenario:**
+- The **Harm track** clears (start healed)
+- **Temporary Conditions** clear
+- **One-use consumables** are spent (note which items are consumable)
+
+**Scars:** only Scars whose Duration is *until healed* or *permanent* carry forward (record them in the Legacy log); shorter Scars have already cleared.
+
+### The save file
+
+Every in-progress scenario has a Save file (`Saves/<Character> — <Scenario>.md`) — a structured snapshot so play can span many sessions. It holds:
+
+- **Where we are** — current scene, location, and a short "story so far" recap.
+- **Live state** — current Harm, active Conditions, and any active Clocks with their fill.
+- **On stage** — NPCs present, their dispositions and instincts, and open threads/quests.
+- **Character delta** — any XP, items, or Conditions gained this session not yet written back to the main character file.
+
+Use `Save File Template.md` as the format.
+
+### Autosave (a hard rule)
+
+**You save automatically. Never make the player ask.** Write the Save file at every natural checkpoint:
+
+- after any roll with a real consequence,
+- whenever Harm, a Condition, or XP changes,
+- when a scene ends or the location changes,
+- when an NPC's disposition shifts or a Clock ticks.
+
+Aim to save at least every few exchanges. The player should be able to lose power or connection at any moment and lose no more than the last exchange or two. A manual "save now" from the player is always honored, but it is a backstop — not the mechanism.
+
+### Resume procedure
+
+When a game loads with a Character file and a Save file present:
+
+1. **Read the Save file** fully and rebuild the Game State from it.
+2. **Replay the recap** — give the player a short "here's where we left off" summary.
+3. **Restore exact state** — Harm, Conditions, Clocks, NPCs on stage.
+4. **Drop back into the scene** and ask what they do.
+
+### Ending reconciliation
+
+When a scenario reaches an ending:
+
+1. Apply **carryover** to the character file (add XP, new tags/items/moves, evolved Drive/Bonds).
+2. Append a **Legacy log** entry: scenario name, outcome, any permanent Scars or notable deeds.
+3. **Archive/close the Save file** (note it complete). The character is ready for their next scenario in the same genre.
+
+---
+
+*EMBER Core Engine — end. Paste a Genre Pack to expand your options, or play Fantasy with Core alone.*
