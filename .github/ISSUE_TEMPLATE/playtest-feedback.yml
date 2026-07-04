@@ -1,0 +1,98 @@
+name: Playtest Feedback
+description: Share how a session of EMBER went — what worked, what broke, what confused you.
+title: "[Playtest] "
+labels: ["playtest"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for playtesting EMBER! Fill in what's useful — no field except the first is required. The more specific you are (actual rolls, actual moments), the more it helps.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Quick summary
+      description: In a sentence or two, how did the session go?
+      placeholder: "Ran a 90-minute cosmic horror one-shot with a friend as player. Great tension, but we got stuck on how Scars work."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: genre
+    attributes:
+      label: Genre played
+      options:
+        - Fantasy (Core)
+        - Horror
+        - Science Fiction
+        - Apocalypse
+        - Built our own genre
+        - Other / multiple
+    validations:
+      required: false
+
+  - type: input
+    id: lens
+    attributes:
+      label: Lens / setting
+      description: Which lens (or blend) did you run?
+      placeholder: "Low & Hidden Magic / Cyberpunk / Undead / etc."
+
+  - type: input
+    id: ai
+    attributes:
+      label: Which AI ran it?
+      placeholder: "Claude / ChatGPT / Gemini / local model — and version if you know it"
+
+  - type: dropdown
+    id: length
+    attributes:
+      label: Session length
+      options:
+        - Under 30 min
+        - 30–60 min
+        - 1–2 hours
+        - 2+ hours
+        - Multi-session (used save/resume)
+
+  - type: textarea
+    id: worked
+    attributes:
+      label: What worked well?
+      description: Moments, mechanics, or AI behavior that felt great.
+
+  - type: textarea
+    id: broke
+    attributes:
+      label: What broke or confused you?
+      description: Rules that were unclear, contradicted each other, or that the AI got wrong or forgot.
+      placeholder: "The AI kept inventing difficulty numbers instead of using advantage/disadvantage."
+
+  - type: textarea
+    id: balance
+    attributes:
+      label: Balance notes
+      description: How did the numbers feel? Especially the 7–9 "success at a cost" band, Harm/Scars deadliness, and XP costs (5 tag / 5 move / 8 stat / 8 harden).
+
+  - type: textarea
+    id: persistence
+    attributes:
+      label: Characters & saves (if used)
+      description: How did character carryover and save/resume work? Did the AI autosave? Did resuming pick up the thread cleanly?
+
+  - type: dropdown
+    id: rating
+    attributes:
+      label: Overall, how was it?
+      options:
+        - "5 — loved it, would play again now"
+        - "4 — good, minor gripes"
+        - "3 — okay, needs work"
+        - "2 — frustrating in places"
+        - "1 — didn't work for us"
+
+  - type: textarea
+    id: anything
+    attributes:
+      label: Anything else?
+      description: Ideas, house rules you invented, requests for new genres/lenses, favorite quotes from the AI — whatever.

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Rules question (not feedback)
+    url: https://github.com/atomicpapa/ember-rpg/discussions
+    about: Just want to ask how something works? Start a discussion instead of filing an issue.
