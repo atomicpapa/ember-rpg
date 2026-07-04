@@ -55,6 +55,15 @@ body:
         - 2+ hours
         - Multi-session (used save/resume)
 
+  - type: checkboxes
+    id: voice
+    attributes:
+      label: How did you play?
+      description: Check any that apply. (If you played by voice/on your phone, please add details in "Anything else?" — that workflow is untested and your notes are gold. See PLAYING-BY-VOICE.md.)
+      options:
+        - label: I played by voice / on my phone (hands-free)
+        - label: I used a persistent project/Custom GPT/Gem to hold the rules
+
   - type: textarea
     id: worked
     attributes:
