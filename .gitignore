@@ -1,0 +1,9 @@
+# Local-only design & development docs — never published to the public repo
+*Design Spec.md
+*Implementation Plan.md
+*Playtest Log.md
+
+# OS / editor cruft
+.DS_Store
+.obsidian/
+Thumbs.db
