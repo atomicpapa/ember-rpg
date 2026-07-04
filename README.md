@@ -25,6 +25,8 @@ Paste the rules to an AI, tell it to run Session Zero, and play a solo adventure
 3. Build a character (or pick a pre-gen) and start playing. Roll real dice when asked and report the results.
 4. To resume later, also paste your **Character** file and **Save** file.
 
+Want to play hands-free on your phone? See **[`PLAYING-BY-VOICE.md`](PLAYING-BY-VOICE.md)** (untested — feedback wanted).
+
 ## Files
 
 | File | What it is |
