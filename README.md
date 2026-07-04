@@ -36,6 +36,16 @@ Paste the rules to an AI, tell it to run Session Zero, and play a solo adventure
 | `Save File Template.md` | Blank save/resume snapshot. |
 | `Characters/` · `Saves/` | Your persistent characters and in-progress scenarios. |
 
+## Design lineage & credits
+
+EMBER's core is built on the shoulders of the **Powered by the Apocalypse (PbtA)** family of games, and it owes them an open thank-you:
+
+- **[Apocalypse World](https://apocalypse-world.com/)** by D. Vincent Baker & Meguey Baker — the origin of the 2d6 **10+ / 7–9 / 6−** resolution, "moves" that trigger from the fiction, marking XP on a miss, and GM principles like "be a fan of the characters" and "make a hard move."
+- **Dungeon World** by Sarah Richardson, Sage LaTorra & Adam Koebel — a big influence on the fantasy framing, Bonds, and the advancement style.
+- **[Ironsworn](https://www.ironswornrpg.com/)** by Shawn Tomkin — the model for solo play, oracle/spark tables, and progress tracks.
+
+What EMBER brings of its own is the *assembly and tuning* rather than the primitives: the genre-agnostic five-stat array, the Bite × Duration **Scar** system, the umbrella-genre **lens** structure, persistent character files with genre-lock and carryover, and the whole design around being **run by an AI Game Master** (autosave, state-tracking, and the GM operating manual). Game mechanics aren't copyrightable — only their expression — and all of EMBER's text is original wording, but crediting lineage is simply good manners in the tabletop community.
+
 ## License
 
 EMBER is released under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](LICENSE). You're free to share and adapt it, including commercially, as long as you give credit and license your derivatives under the same terms.

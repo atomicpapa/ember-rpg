@@ -552,4 +552,12 @@ When a scenario reaches an ending:
 
 ---
 
+---
+
+## Design lineage & credits
+
+EMBER's engine stands on the **Powered by the Apocalypse** family. The 2d6 **10+ / 7–9 / 6−** spread, fiction-first "moves," marking XP on a miss, and the GM principles ("be a fan of the character," "make a hard move," "play to find out") come from **Apocalypse World** by D. Vincent Baker & Meguey Baker. The fantasy framing and advancement owe a debt to **Dungeon World** (Sarah Richardson, Sage LaTorra, Adam Koebel), and the solo play and spark tables to **Ironsworn** by Shawn Tomkin. EMBER's own contributions are the genre-agnostic five-stat array, the Bite × Duration Scar system, the umbrella-genre lens structure, persistent characters with genre-lock and carryover, and the design for being run by an AI Game Master. With gratitude to those designers.
+
+---
+
 *EMBER Core Engine — end. Paste a Genre Pack to expand your options, or play Fantasy with Core alone.*
