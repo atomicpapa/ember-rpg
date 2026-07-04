@@ -7,6 +7,7 @@
 ---
 
 **Scenario:** <Scenario Name>
+**Built for Core Engine:** <e.g. v1.0 — the ruleset this pack was written against>
 
 ## History of the Problem
 

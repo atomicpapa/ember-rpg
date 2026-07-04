@@ -6,6 +6,7 @@
 
 **Scenario:** The Sunken Bell
 **Genre / Suggested Lens:** Fantasy / any lens, leans naturally toward High Magic or Sword & Sorcery
+**Built for Core Engine:** v1.0
 
 ## Premise
 

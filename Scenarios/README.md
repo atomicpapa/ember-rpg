@@ -14,6 +14,10 @@ Every entry after the first states plainly near the top, "Part 2 of the Sunken B
 
 This is a labeling and discoverability convention, not a mechanical gate — carry the same character forward via Core's normal carryover, no new mechanism needed. If a code collides with an existing series, just pick a different 2-3 letter abbreviation.
 
+## Ruleset compatibility
+
+Every pack's Player and GM docs carry a **"Built for Core Engine"** line (e.g. `v1.0`) stating which ruleset version they were written against. This is a compatibility marker, not an independent version number for the pack itself — packs don't need bumping every time Core changes, only if a future Core rules change (say, to the enemy-block format) actually affects how the pack plays.
+
 ## Starting a new pack
 
 Copy `../Scenario Player Template.md` and `../Scenario GM Template.md` (repo root) and fill them in.

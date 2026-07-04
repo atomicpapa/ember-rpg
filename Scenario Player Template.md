@@ -6,6 +6,7 @@
 
 **Scenario:** <Scenario Name>
 **Genre / Suggested Lens:** <e.g. Fantasy / any lens, leans toward High Magic>
+**Built for Core Engine:** <e.g. v1.0 — the ruleset this pack was written against>
 
 ## Premise
 

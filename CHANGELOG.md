@@ -12,6 +12,9 @@ All notable rule changes to the EMBER Core Engine and Genre Packs, by version.
 - Added a **difficulty scaling** convention (Fresh / Seasoned tiers) so a pack's villain can scale to a new character or a veteran one, and a **series-numbering** convention (`SB1`, `SB2`, ...) for scenarios with sequels, documented in `Scenarios/README.md`.
 - Added the first example pack: `Scenarios/Fantasy/The Sunken Bell/` (standalone, not yet part of a series).
 - Added a "Ready-made adventures" pointer to `EMBER — Player's Guide.md`, alongside the matching README pointer added in this same round, so players discover Scenario Packs from either doc.
+- Added a **"Built for Core Engine"** field to both Scenario templates and to The Sunken Bell's docs — a ruleset-compatibility marker (not an independent pack version), documented in `Scenarios/README.md`.
+
+**Process note:** GitHub Releases are on hold for now, given how fast this repo is changing during active playtesting — `CHANGELOG.md` is the source of truth for what's shipped. The `v1.0` git tag remains as a historical marker, but its GitHub Release page was removed.
 
 ## v1.0 — 2026-07-04
 

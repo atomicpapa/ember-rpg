@@ -5,6 +5,7 @@
 ---
 
 **Scenario:** The Sunken Bell
+**Built for Core Engine:** v1.0
 
 ## History of the Problem
 
