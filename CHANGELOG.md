@@ -9,9 +9,9 @@ All notable rule changes to the EMBER Core Engine and Genre Packs, by version.
 **New content type: Scenario Packs**
 - Added `Scenario Player Template.md` and `Scenario GM Template.md` (repo root) — reusable blank templates for prebuilt adventures: history, a main villain, 1+ sub-bosses, resolution conditions, and optional key scenes, built entirely on existing Core mechanics (enemy blocks, Clocks, Threat tiers).
 - Added a `Scenarios/` folder, organized by genre, with each pack split into a spoiler-safe Player doc and a GM-only doc.
-- Added a **difficulty scaling** convention (Fresh / Seasoned tiers) so a pack's villain can scale to a new character or a veteran one, and a **series-numbering** convention (`SB1`, `SB2`, ...) for scenarios with sequels.
+- Added a **difficulty scaling** convention (Fresh / Seasoned tiers) so a pack's villain can scale to a new character or a veteran one, and a **series-numbering** convention (`SB1`, `SB2`, ...) for scenarios with sequels, documented in `Scenarios/README.md`.
 - Added the first example pack: `Scenarios/Fantasy/The Sunken Bell/` (standalone, not yet part of a series).
-- Added a "Ready-made adventures" pointer to `EMBER — Player's Guide.md`, alongside the existing README pointer, so players discover Scenario Packs from either doc.
+- Added a "Ready-made adventures" pointer to `EMBER — Player's Guide.md`, alongside the matching README pointer added in this same round, so players discover Scenario Packs from either doc.
 
 ## v1.0 — 2026-07-04
 

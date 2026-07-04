@@ -44,18 +44,18 @@ He isn't cackling-villain evil — he believes, completely, that he's saving the
 ## Sub-Bosses
 
 > **Tide-touched Thralls (Standard, 3 Harm)** — Tags: *Drowned eyes, Unnaturally strong, Don't need to breathe.* Signature: *They drag you toward the water on your cost/miss — take 1 Harm and become Compromised until you break free.* Instinct: *Drag the unwilling into the tide.*
-> *Scaling for Seasoned parties:* bump to Elite (5 Harm), or run two Thralls instead of one.
+> *Scaling for a Seasoned character:* bump to Elite (5 Harm), or run two Thralls instead of one.
 
-> **Brother Wrack, the Choir's Enforcer (Standard, 3 Harm)** — Tags: *Fanatical, Numbers, Hooked gaff.* Signature: *On your miss, he calls for backup — tick a 4-segment "Choir Gathers" Clock, or another cultist arrives immediately.* Instinct: *Protect the Cantor's ritual at any cost.*
-> *Scaling for Seasoned parties:* bump to Elite (5 Harm), or give him a second signature — a thrown net that fills 1 Harm and inflicts Compromised on a hit.
+> **Brother Wrack, the Choir's Enforcer (Standard, 3 Harm)** — Tags: *Fanatical, Numbers, Hooked gaff.* Signature: *On your miss, he calls for backup — tick a 4-segment "The Choir Gathers" Clock, or another cultist arrives immediately.* Instinct: *Protect the Cantor's ritual at any cost.*
+> *Scaling for a Seasoned character:* bump to Elite (5 Harm), or give him a second signature — a thrown net that fills 1 Harm and inflicts Compromised on a hit.
 
 ## Resolution Conditions
 
 **Victory:** the ritual is stopped before "The Tide Turns" fills (Seasoned tier) or the Cantor is defeated/driven off (Fresh tier) — either by breaking the recovered bell-clapper, defeating the Cantor directly, or getting the town evacuated and physically disrupting the ritual site before the tide turns.
 
-**Partial/costly victory:** the fight is won, but the Cantor escapes into the bay to try again elsewhere — a clean hook for a sequel, should one get written (see the Series convention in the design spec if this becomes `SB2`).
+**Partial/costly victory:** the fight is won, but the Cantor escapes into the bay to try again elsewhere — a clean hook for a sequel, should one get written (see the Series convention in `Scenarios/README.md` if this becomes `SB2`).
 
-**Failure:** "The Tide Turns" Clock fills completely (or, at Fresh tier, the Cantor simply succeeds because the party couldn't stop him in time). Don't narrate a flat game-over — Fathoms-Deep's presence floods the low quarter of Graybell Cove permanently, transforming the town and creating a new standing threat or mystery. Something the story can keep moving through, not a dead end.
+**Failure:** "The Tide Turns" Clock fills completely (or, at Fresh tier, the Cantor simply succeeds because the hero couldn't stop him in time). Don't narrate a flat game-over — Fathoms-Deep's presence floods the low quarter of Graybell Cove permanently, transforming the town and creating a new standing threat or mystery. Something the story can keep moving through, not a dead end.
 
 **Alternate resolution:** persuading the Cantor is a genuinely hard Sway (his fanaticism runs deep) — but real leverage exists: one of the tide-touched thralls, if freed and lucid for a moment, could be someone the Cantor still loves (a sibling, an old parishioner), and that recognition could break his resolve without a fight.
 
@@ -63,8 +63,8 @@ He isn't cackling-villain evil — he believes, completely, that he's saving the
 
 *Suggestions, not a script — skip, reorder, or replace either if the fiction's already heading somewhere better. Never force one.*
 
-1. **The tide-touched procession.** At dusk, the party spots a small procession of tide-touched thralls carrying something wrapped in kelp and rope down to the shore — the recovered bell-clapper. A chance to intercept them here, or follow them back to find the ritual site.
-2. **The ritual at the sunken bell.** The climax: at low tide, with the old watch-tower's stump exposed for the first time in years, the party arrives to find the Cantor mid-ritual, thralls and Brother Wrack between them and him.
+1. **The tide-touched procession.** At dusk, the hero spots a small procession of tide-touched thralls carrying something wrapped in kelp and rope down to the shore — the recovered bell-clapper. A chance to intercept them here, or follow them back to find the ritual site.
+2. **The ritual at the sunken bell.** The climax: at low tide, with the old watch-tower's stump exposed for the first time in years, the hero arrives to find the Cantor mid-ritual, thralls and Brother Wrack between them and him.
 
 ## Suggested Clocks
 
@@ -73,6 +73,6 @@ He isn't cackling-villain evil — he believes, completely, that he's saving the
 
 ## Scaling Notes: One-Shot vs. Multi-Session
 
-**One-shot:** compress to hook → one Sub-Boss encounter (Thralls or Brother Wrack, whichever fits the party's approach) → the ritual climax with the Cantor, all in one session.
+**One-shot:** compress to hook → one Sub-Boss encounter (Thralls or Brother Wrack, whichever fits the hero's approach) → the ritual climax with the Cantor, all in one session.
 
 **Multi-session:** hook and investigation (uncovering the Choir, meeting both Sub-Bosses across separate scenes) → a session confronting Brother Wrack and the Choir directly → a final session for the ritual climax with the Cantor at the spring tide.

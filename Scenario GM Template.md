@@ -40,10 +40,10 @@
 ## Sub-Bosses
 
 > <Sub-boss 1 (Threat tier, Harm)> — Tags: <2-4 tags>. Signature: <trigger + effect>. Instinct: <one line>.
-> *Scaling for Seasoned parties:* <one-line tweak — bump Threat tier, add a second enemy, etc.>
+> *Scaling for a Seasoned character:* <one-line tweak — bump Threat tier, add a second enemy, etc.>
 
 > <Sub-boss 2 (Threat tier, Harm)> — Tags: <2-4 tags>. Signature: <trigger + effect>. Instinct: <one line>.
-> *Scaling for Seasoned parties:* <one-line tweak>
+> *Scaling for a Seasoned character:* <one-line tweak>
 
 ## Resolution Conditions
 
