@@ -3,6 +3,15 @@
 *Implementation Plan.md
 *Playtest Log.md
 
+# Personal play files — your own characters and saves stay local.
+# (Published exceptions: the folder READMEs and the "Example —" demos.)
+Characters/*
+!Characters/README.md
+!Characters/Example *
+Saves/*
+!Saves/README.md
+!Saves/Example *
+
 # OS / editor cruft
 .DS_Store
 .obsidian/
