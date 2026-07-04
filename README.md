@@ -28,6 +28,8 @@ Paste the rules to an AI, tell it to run Session Zero, and play a solo adventure
 Want to play on your phone (typed or hands-free by voice)? See **[`PLAYING-ON-MOBILE.md`](PLAYING-ON-MOBILE.md)** (untested — feedback wanted).
 On a computer, connect a filesystem MCP for **true autosave** (the AI reads/writes your files directly) — see **[`PLAYING-ON-DESKTOP.md`](PLAYING-ON-DESKTOP.md)**.
 
+Want a ready-made adventure instead of improvising from scratch? Browse **[`Scenarios/`](Scenarios/)** for prebuilt Scenario Packs, organized by genre.
+
 ## Files
 
 | File | What it is |
@@ -40,6 +42,8 @@ On a computer, connect a filesystem MCP for **true autosave** (the AI reads/writ
 | `Characters/` · `Saves/` | Your persistent characters and in-progress scenarios. |
 | `BENCHMARK-SCENARIO.md` | A fixed, ready-to-run scenario for structured playtesting — same setup every time, so results compare across testers and AI models. |
 | `PLAYTEST-LOG-TEMPLATE.md` | Structured log format for a deep playtest (rules exercised, drift incidents, save-file fidelity). Pairs with the benchmark scenario. |
+| `Scenario Player Template.md` / `Scenario GM Template.md` | Blank templates for building a Scenario Pack — a prebuilt adventure (history, a villain, sub-bosses, resolution conditions) the AI can run you through. |
+| `Scenarios/` | Scenario Packs, organized by genre. Each pack has a Player doc (safe to read) and a GM doc (spoilers — don't read it yourself). Start here: `Scenarios/Fantasy/The Sunken Bell/`. |
 
 ## Design lineage & credits
 
