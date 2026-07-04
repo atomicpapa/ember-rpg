@@ -8,6 +8,7 @@
 **Concept:** <one sentence>
 **Genre stamp:** <e.g. Fantasy>  *(this character can only play scenarios of this genre; any lens is fine)*
 **Archetype:**
+**Created under:** <rules version, e.g. v1.0 — see `CHANGELOG.md`>
 
 ## Stats
 

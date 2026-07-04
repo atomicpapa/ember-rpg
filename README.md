@@ -25,7 +25,7 @@ Paste the rules to an AI, tell it to run Session Zero, and play a solo adventure
 3. Build a character (or pick a pre-gen) and start playing. Roll real dice when asked and report the results.
 4. To resume later, also paste your **Character** file and **Save** file.
 
-Want to play hands-free on your phone? See **[`PLAYING-BY-VOICE.md`](PLAYING-BY-VOICE.md)** (untested — feedback wanted).
+Want to play on your phone (typed or hands-free by voice)? See **[`PLAYING-ON-MOBILE.md`](PLAYING-ON-MOBILE.md)** (untested — feedback wanted).
 On a computer, connect a filesystem MCP for **true autosave** (the AI reads/writes your files directly) — see **[`PLAYING-ON-DESKTOP.md`](PLAYING-ON-DESKTOP.md)**.
 
 ## Files
@@ -38,6 +38,8 @@ On a computer, connect a filesystem MCP for **true autosave** (the AI reads/writ
 | `Character Sheet Template.md` | Blank, portable character sheet. |
 | `Save File Template.md` | Blank save/resume snapshot. |
 | `Characters/` · `Saves/` | Your persistent characters and in-progress scenarios. |
+| `BENCHMARK-SCENARIO.md` | A fixed, ready-to-run scenario for structured playtesting — same setup every time, so results compare across testers and AI models. |
+| `PLAYTEST-LOG-TEMPLATE.md` | Structured log format for a deep playtest (rules exercised, drift incidents, save-file fidelity). Pairs with the benchmark scenario. |
 
 ## Design lineage & credits
 

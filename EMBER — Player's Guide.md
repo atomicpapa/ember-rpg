@@ -1,5 +1,7 @@
 # EMBER — Player's Guide
 
+**Version:** 1.0 — see `CHANGELOG.md`
+
 *Read this to understand how EMBER plays, without wading through the rules meant for the AI Game Master. This is for **you**, the player — you don't paste it to the AI (paste the Core Engine and a Genre Pack for that). It gives you the concept and the essentials; the Core Engine has the exact numbers if you ever want them.*
 
 ---
@@ -20,7 +22,7 @@ That's the entire engine. Everything below is just detail on those pieces.
 
 Play is a conversation with a rhythm: the AI sets a scene and turns to you; you describe what your character tries; if it's uncertain and failure would be interesting, you roll; the AI tells you how it shakes out and what's happening now. Repeat. You never pick from menus — you just describe what you want to do, in plain language, and the AI works out the rest.
 
-You can play a quick one-hour adventure or a saga across many sessions. The AI quietly saves your progress as you go, so you can stop anytime and pick up right where you left off.
+You can play a quick one-hour adventure or a saga across many sessions. On desktop with a filesystem connection, the AI writes your progress to disk automatically as you go (see `PLAYING-ON-DESKTOP.md`); on mobile or other setups without file access, you'll copy the save block back yourself at checkpoints (see `PLAYING-ON-MOBILE.md`). Either way, you can stop anytime and pick up right where you left off.
 
 ## Who your character is
 

@@ -17,6 +17,15 @@ Thanks for helping test and shape EMBER! Right now the project is in its **playt
 - **Note what the AI did**, not just the rules. If the GM forgot a Condition, skipped autosaving, or misread a move, that's a finding — the rules are written *for the AI to run*, so AI behavior is part of the test.
 - **Try variety.** Different genres, different lenses, and a **multi-session save/resume** all stress different parts of the system.
 
+## Structured playtesting (for comparable results)
+
+Freeform play is great, but if you want your results to be directly comparable to someone else's — especially across different AI models — use:
+
+- **`BENCHMARK-SCENARIO.md`** — a fixed setup ("The Hollow Keep," Sera Vane, same Session Zero answers every time) so everyone's starting from the same place.
+- **`PLAYTEST-LOG-TEMPLATE.md`** — a structured log (rules exercised, drift incidents, specific rules the AI got wrong, save-file fidelity) instead of freeform impressions.
+
+The goal of structured runs specifically is answering **"which rules do LLMs break most?"** — since EMBER's whole design bet is that an AI can run it consistently, that's the single most useful signal we can collect. Post the filled-in log as a Playtest Feedback issue, or link it if it's long.
+
 ## How to report
 
 - **Playtest report:** Open a [new issue](https://github.com/atomicpapa/ember-rpg/issues/new/choose) and pick **Playtest Feedback**. The form walks you through it.

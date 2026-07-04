@@ -17,7 +17,7 @@ With a filesystem MCP pointed at your EMBER folder, the AI can:
 
 - **Claude Desktop app (Mac/Windows)** — yes, via a local filesystem MCP server (below).
 - **Claude Code (CLI / IDE)** — yes, natively; it reads/writes your project files with no extra setup.
-- **Claude.ai web / mobile app** — no local file access. Use [`PLAYING-BY-VOICE.md`](PLAYING-BY-VOICE.md) or the plain paste-and-play flow instead.
+- **Claude.ai web / mobile app** — no local file access. Use [`PLAYING-ON-MOBILE.md`](PLAYING-ON-MOBILE.md) or the plain paste-and-play flow instead.
 - **Other AIs** — if your app supports a local filesystem MCP/tool, the same idea applies.
 
 ## Setup: filesystem MCP on Claude Desktop

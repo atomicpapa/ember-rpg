@@ -25,6 +25,8 @@
 **Scars in play:** none
 **Clocks:**
 - "<name>" `[ ][ ][ ][ ]`
+**Used this scene/session:** none
+**Consumables remaining:** none
 
 ## On stage
 

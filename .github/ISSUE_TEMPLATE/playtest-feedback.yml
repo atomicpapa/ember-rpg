@@ -59,7 +59,7 @@ body:
     id: voice
     attributes:
       label: How did you play?
-      description: Check any that apply. (If you played by voice/on your phone, please add details in "Anything else?" — that workflow is untested and your notes are gold. See PLAYING-BY-VOICE.md.)
+      description: Check any that apply. (If you played on mobile — typed or by voice — please add details in "Anything else?": that workflow is untested and your notes are gold. See PLAYING-ON-MOBILE.md.)
       options:
         - label: I played by voice / on my phone (hands-free)
         - label: I used a persistent project/Custom GPT/Gem to hold the rules
@@ -75,7 +75,7 @@ body:
     attributes:
       label: What broke or confused you?
       description: Rules that were unclear, contradicted each other, or that the AI got wrong or forgot.
-      placeholder: "The AI kept inventing difficulty numbers instead of using advantage/disadvantage."
+      placeholder: "The AI kept inventing difficulty numbers instead of using Edge/Hindrance."
 
   - type: textarea
     id: balance

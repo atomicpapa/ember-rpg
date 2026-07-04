@@ -8,6 +8,7 @@
 **Concept:** A disgraced knight cast out for a death she didn't cause; she hunts the real killer.
 **Genre stamp:** Fantasy  *(any Fantasy lens; cannot cross to other genres)*
 **Archetype:** Warrior
+**Created under:** v1.0 — see `CHANGELOG.md`
 
 ## Stats
 

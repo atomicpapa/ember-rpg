@@ -1,5 +1,7 @@
 # EMBER — Apocalypse
 
+**Version:** 1.0 — see `CHANGELOG.md`
+
 *A Genre Pack for EMBER. Paste this together with `EMBER — Core Engine.md`. Uses only Core rules — no new subsystems.*
 
 **Tone & premise:** The world ended; people didn't. Survivors scratch a living from the ruins, band into fragile communities, and face the dead, the desperate, and the wasteland itself. **Shared spine:** scarcity, survival, factions, a broken world, and scavenging — every lens of Apocalypse shares this.

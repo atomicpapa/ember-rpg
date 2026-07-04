@@ -1,12 +1,14 @@
 # EMBER — Science Fiction
 
+**Version:** 1.0 — see `CHANGELOG.md`
+
 *A Genre Pack for EMBER. Paste this together with `EMBER — Core Engine.md`. Uses only Core rules — no new subsystems.*
 
 **Tone & premise:** Tomorrow and beyond — starships and colonies, corporate arcologies and neon streets, the cold dark between worlds. Characters are pilots, soldiers, traders, and technicians navigating frontiers where technology solves some problems and creates worse ones.
 
 **Default dials:** Lethality 2 · Magic/Tech 3 · Weirdness 1. Standard array (**+2, +1, +1, 0, −1**). Gear is expressed as **tags** — a *Plasma cutter* or *Neural jack* grants +1 when it credibly applies.
 
-**Running Sci-Fi well:** technology is tags, not a new rules layer. When a player uses gear cleverly, grant advantage; when tech fails on a miss, that's a great hard move (a jammed weapon, a fried console, a lockout). **Wits** carries hacking, science, and repair; **Grace** covers piloting and zero-G. Use Clocks for life support, pursuit, reactor meltdowns, and hack-in-progress tension.
+**Running Sci-Fi well:** technology is tags, not a new rules layer. When a player uses gear cleverly, grant an Edge; when tech fails on a miss, that's a great hard move (a jammed weapon, a fried console, a lockout). **Wits** carries hacking, science, and repair; **Grace** covers piloting and zero-G. Use Clocks for life support, pursuit, reactor meltdowns, and hack-in-progress tension.
 
 ## Archetype menu
 

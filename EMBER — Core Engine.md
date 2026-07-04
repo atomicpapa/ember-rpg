@@ -1,5 +1,7 @@
 # EMBER — Core Engine
 
+**Version:** 1.0 — see `CHANGELOG.md`
+
 **Engine for Multi-genre Emergent Roleplay**
 
 A rules-light solo tabletop roleplaying game designed to be run by an AI as the Game Master (GM) for a single human player.
@@ -53,7 +55,7 @@ Every character — player or NPC — is defined by five stats, rated from **-1 
 
 ### Rolling the dice (2d6 + stat)
 
-When an action's outcome is **uncertain** *and* **failure would be interesting**, call for a roll. The player rolls **2d6**, adds the relevant stat (and ±1 for advantage or disadvantage), and tells you the total:
+When an action's outcome is **uncertain** *and* **failure would be interesting**, call for a roll. The player rolls **2d6**, adds the relevant stat (and ±1 for Edge or Hindrance), and tells you the total:
 
 - **10+** — **Full success.** It works, cleanly.
 - **7–9** — **Success at a cost.** It works, but you introduce a complication, a cost, a hard choice, or partial progress.
@@ -65,10 +67,12 @@ That's the whole resolution system. The 7–9 band is the heart of EMBER: most r
 
 EMBER has **no target numbers, DCs, or difficulty classes** — do not invent them. You adjust challenge in only two ways:
 
-- **Advantage (+1)** when the fiction favors the player — a relevant tag applies, they have the high ground, they prepared well, an ally helps.
-- **Disadvantage (−1)** when the fiction works against them — they're wounded (a Condition), rushed, outnumbered, working blind.
+- **Edge (+1)** when the fiction favors the player — a relevant tag applies, they have the high ground, they prepared well, an ally helps.
+- **Hindrance (−1)** when the fiction works against them — they're wounded (a Condition), rushed, outnumbered, working blind.
 
 You also adjust challenge by how **steep the 7–9 cost is**: a 7–9 picking a simple lock costs a little time; a 7–9 defusing a bomb costs a lot. Stack no more than +2/−2 from situational factors; beyond that, reconsider whether a roll is even needed.
+
+**The full formula:** `2d6 + stat (−1..+3) + situational (−2..+2)`. The situational term is one combined bucket capped at ±2 — it includes tags, Conditions, Scars, pushing, and help from allies, all added together, not stacked independently on top of the cap.
 
 ### Who rolls
 
@@ -94,6 +98,8 @@ When you attack an enemy in close or ranged combat, roll + Might (melee or brute
 - **7–9** — You deal your harm, but the enemy gets an opening: you take harm, lose position, or face a hard choice.
 - **6-** — The GM makes a hard move against you — the enemy acts first, or the situation worsens.
 
+**How much harm you deal:** a successful Strike fills **1 segment** of the enemy's Harm track by default; **2 segments** when a tag, weapon, or position clearly amplifies the hit; **3 segments** for an exploited weakness or a set-up payoff. A heavy-weapon tag may trade +1 Harm for a drawback (slower, telegraphed, or two-handed).
+
 ### Endure
 When you resist incoming harm, fear, exhaustion, or a hostile effect through sheer toughness or will, roll + Might (body) or + Resolve (mind/spirit).
 - **10+** — You shrug it off; no lasting effect.
@@ -116,7 +122,7 @@ When you try to influence an NPC with charm, logic, leverage, or intimidation, r
 
 ### Recover
 When you take time to treat wounds, rest, or steady yourself in a safe-enough moment, roll + the stat that fits (Wits for first aid, Presence to rally, Resolve to steady your mind, Might to tough it out).
-- **10+** — Clear the Harm you can plausibly recover here, or remove one Condition.
+- **10+** — Clear up to 2 Harm segments (more if the fiction plausibly supports it — a full night's rest, a hospital), or remove one Condition.
 - **7–9** — Recover some Harm *or* clear one Condition, but it costs time, resources, or leaves you exposed.
 - **6-** — No recovery, and the respite is broken; the GM makes a move.
 
@@ -126,13 +132,13 @@ When you take time to treat wounds, rest, or steady yourself in a safe-enough mo
 
 A **tag** is a short descriptive trait that says something true about a character, a piece of gear, an ally, or the environment: *Ex-soldier, Silver-tongued, Cybernetic arm, Occult lore, Rusted but reliable, High ground.*
 
-When a tag **credibly applies** to a roll, the player gains **advantage (+1)**. Only one tag's +1 applies per roll unless the fiction clearly stacks two independent advantages (cap the situational bonus at +2). If a player argues a tag applies, be generous when it's plausible and say no when it's a stretch.
+When a tag **credibly applies** to a roll, the player gains **an Edge (+1)**. Only one tag's +1 applies per roll unless the fiction clearly stacks two independent Edges (cap the situational bonus at +2). If a player argues a tag applies, be generous when it's plausible and say no when it's a stretch.
 
 Gear, allies, and the environment are represented as tags too — a *Plasma cutter*, a *Loyal hound*, a *Blizzard*. This is how EMBER gets tactical texture without piling on stats.
 
 ### Push yourself
 
-When the player wants an edge and is willing to pay for it, they may **push**: voluntarily take a **Condition** (see below) to gain **+1** on a roll. Pushing represents straining past safe limits — bloodying your knuckles, burning focus, spending nerve. There is no separate luck or hero-point currency; risk flows through the harm system.
+After seeing a roll go badly, the player may **push**: voluntarily take a **Condition** (see below) to turn a **6− into a 7–9**. Pushing represents straining past safe limits — bloodying your knuckles, burning focus, spending nerve — at the moment it actually matters. There is no separate luck or hero-point currency; risk flows through the harm system. **Limit: once per scene.** (This is "the usual limit" referenced by moves that mention pushing.)
 
 ---
 
@@ -160,7 +166,7 @@ A **Condition** is a named negative state that imposes **−1** to any roll it l
 - **Afraid** — gripped by fear of a specific thing (−1 near it)
 - **Compromised** — cornered, exposed, or leveraged against (−1 while it holds)
 
-You may name a fresh Condition when the fiction calls for one; keep it to a single evocative word and a clear trigger. Multiple Conditions can stack (each its own −1). Conditions clear through fiction (rest, safety, addressing the cause), the **Recover** move, or when the scene that caused them resolves. Temporary Conditions clear between scenarios.
+You may name a fresh Condition when the fiction calls for one; keep it to a single evocative word and a clear trigger. Multiple Conditions can stack (each its own −1), but **the total penalty from Conditions and Scars combined is capped at −2** — mirroring the +2 cap on situational bonuses. A character with three active Conditions still only takes −2, not −3. Conditions clear through fiction (rest, safety, addressing the cause), the **Recover** move, or when the scene that caused them resolves. Temporary Conditions clear between scenarios.
 
 ### Scars & Lasting Effects
 
@@ -213,6 +219,12 @@ The player **marks 1 XP** when they:
 - **Pursue their Drive** in a meaningful way this session.
 - **Deepen a Bond** — act on it, complicate it, or pay for it.
 
+**Drive and Bond XP are checked once per session, at an end-of-session checkpoint** (not tracked ad hoc mid-fiction). When a session wraps — or at a natural pause, alongside a Save — ask the player these questions and mark 1 XP for each "yes":
+- *Did you pursue your Drive in a meaningful way this session?*
+- *Did a Bond deepen, get complicated, or cost you something?*
+
+This caps Drive/Bond XP at 1 each per session (no farming by repeating the same beat) and gives the AI GM a discrete, consistent moment to award it instead of judging "meaningful" in the moment. Miss XP has no cap and is still marked immediately, in the moment it happens.
+
 ### Spending XP
 
 XP is spent between scenes or during downtime. Standard costs:
@@ -222,7 +234,7 @@ XP is spent between scenes or during downtime. Standard costs:
 | **5 XP** | Gain a new **tag** (a skill or trait you've earned in the fiction). |
 | **5 XP** | Learn a new **archetype signature move** (from your archetype, or a fitting one you've role-played toward). |
 | **8 XP** | **Bump a stat** by +1 (**maximum +3**). |
-| **8 XP** | **Harden** — add resilience: reduce one incoming source of Harm by 1 segment, once per scene, permanently. |
+| **8 XP** | **Harden** — a permanent ability: once per scene, reduce one incoming source of Harm by 1 segment. |
 
 Keep advancement in the fiction: a new tag or move should reflect something the character actually did or trained toward. Never let a stat exceed **+3**.
 
@@ -239,7 +251,7 @@ You build any adversary on the fly from a tiny five-part block. Keep it small �
   - **Standard** (3 segments) — a real fight.
   - **Elite** (5 segments) — dangerous; a match for the player.
   - **Boss** (5 segments **+ a Clock**) — a set-piece threat (see *Clocks*).
-- **Tags** (2–4) — what makes it dangerous and how it fights: *Armored, Fast, Terrifying, Hive-minded, Regenerates.* Its tags can grant it advantage in the fiction and tell you how to narrate it.
+- **Tags** (2–4) — what makes it dangerous and how it fights: *Armored, Fast, Terrifying, Hive-minded, Regenerates.* Its tags can grant it an Edge in the fiction and tell you how to narrate it.
 - **Signature move(s)** (1–2) — the nasty things it does, triggered on the **player's** miss or 7–9 cost: *"drags you into the dark," "splits when wounded," "screams and everyone nearby is Shaken."*
 - **Instinct** — one line on what it wants, so it behaves consistently between beats: *"protect the nest," "feed," "capture intruders alive."*
 - **Harm to the player** — severity guidance: a graze or glancing blow fills 1 segment; a solid hit fills 2; a Boss's signature move fills 2–3 or inflicts a Condition/Scar.
@@ -335,7 +347,7 @@ Each archetype lists a stat emphasis and signature moves. New characters begin w
 - **Ritual Lore.** When you have time, materials, and safety, you can accomplish larger magical feats without a roll — but the GM tells you the cost or catch first.
 
 **Rogue** — *emphasize Grace.*
-- ★ **Sleight & Shadow.** When you act with stealth, misdirection, or a quick hand, take +1 (advantage). On a miss, you're caught or leave a trace.
+- ★ **Sleight & Shadow.** When you act with stealth, misdirection, or a quick hand, take +1 (Edge). On a miss, you're caught or leave a trace.
 - **Exploit.** When you strike from surprise or hit a foe's weakness, deal +1 Harm and ignore their Armored tag.
 
 **Ranger** — *emphasize Wits or Grace.*
@@ -370,9 +382,7 @@ Each archetype lists a stat emphasis and signature moves. New characters begin w
 
 > **Young Dragon (Boss, 5 Harm + 6-Clock "Rampage")** — Tags: *Winged, Fire-breath, Ancient cunning, Armored scales.* Signature: *Its breath fills 3 Harm across everyone in the open; on your miss, tick Rampage. When Rampage fills, it escapes or levels the area.* Instinct: *Hoard, dominate, and destroy threats to its lair.*
 
-### Spark tables (roll d66 — two d6, read as tens+ones)
-
-Roll one die for the row group and one for the entry, or just pick.
+### Spark tables (roll d6 or pick)
 
 **Names (roll d6):** 1 Alaric · 2 Bryn · 3 Seraphine · 4 Doran · 5 Isolde · 6 Kestrel
 
@@ -426,7 +436,7 @@ Play proceeds in a simple cycle:
 1. **Describe the situation** — vividly, honestly, ending with a question or an implied choice.
 2. **The player acts** — they say what their character does.
 3. **Decide if a roll is needed.** Only call for a roll when the outcome is genuinely **uncertain** *and* **failure would be interesting**. If success is obvious, just narrate it. If failure is boring or a dead end, just narrate it.
-4. **Call for the roll.** Name the move and the stat: *"Roll Face Danger with Grace."* The player rolls 2d6 + stat (± advantage/disadvantage) and reports the total.
+4. **Call for the roll.** Name the move and the stat: *"Roll Face Danger with Grace."* The player rolls 2d6 + stat (± Edge/Hindrance) and reports the total.
 5. **Interpret the spread** (10+ / 7–9 / 6−) and **narrate the outcome**, then **update state**.
 6. Repeat.
 
@@ -436,6 +446,17 @@ Play proceeds in a simple cycle:
 - **Play to find out.** Don't railroad; follow consequences honestly, even you don't know where they lead.
 - **Telegraph danger.** Foreshadow threats before they strike, so a miss feels earned, not arbitrary.
 - **Make a hard move on a miss.** A 6− means you get to act: deal harm, introduce a threat, take something away, put them on the spot, advance a Clock, or turn their action against them. Make it hurt, but keep it fair and telegraphed.
+- **Golden opportunity.** You may also make a hard move **independent of any roll** when the player ignores a clearly telegraphed danger — no roll is needed to let a foreshadowed consequence land.
+
+**GM move menu** — pick whichever fits the fiction; don't reuse the same one repeatedly:
+- Deal harm (to the player or something they care about)
+- Separate them (from an ally, resource, or safe position)
+- Take away a resource (an item, an opportunity, a Condition-free state)
+- Turn their move back on them
+- Reveal an unwelcome truth
+- Offer a hard bargain (a genuine choice with a real cost either way)
+- Advance a Clock
+- Put someone in a spot (force a decision under pressure)
 - **Ask questions and build on the answers.** "Why do you hate this place?" "What does your sword's rune do?" Weave their answers into the world.
 - **Hold to the fiction.** Every roll comes from and returns to the story. Never let mechanics float free of what's actually happening.
 
@@ -452,21 +473,102 @@ Conditions: Shaken
 Scene: The flooded crypt, water rising
 Clocks: "Crypt floods" [x][x][x][ ][ ][ ]
 On stage: Doran (wary ally), Skeleton Warriors x2 (2 Harm left)
+Used this scene/session: Lucky Break (session)
+Consumables remaining: Rations x2, Torch x1
 ```
 
 This is your single most important tool for consistency across a long session. When in doubt, restate.
 
 ### Adjudication
 
-- **Advantage/disadvantage:** grant +1 when a tag, preparation, or the fiction clearly favors the player; −1 when wounded, rushed, or the fiction works against them. Cap situational modifiers at ±2.
+- **Edge/Hindrance:** grant +1 when a tag, preparation, or the fiction clearly favors the player; −1 when wounded, rushed, or the fiction works against them. Cap situational modifiers at ±2.
 - **Scaling the 7–9 cost:** small stakes → small cost (time, noise, a minor Condition); big stakes → big cost (real Harm, a Scar, a Clock ticks, a hard either/or).
+
+**Universal 7–9 cost menu** — pick whichever fits when a success needs a price:
+- Time
+- Noise or attention
+- A resource
+- Position
+- A Condition
+- A Clock ticks
+- A hard choice
 - **Hard moves on a miss:** make them proportional to the danger you telegraphed. A miss picking a lock isn't fatal; a miss disarming a bomb might be.
 - **When not to roll:** don't call for rolls on trivial or already-decided actions, or when the same information could just be given. Dice are for dramatic uncertainty.
+- **High-stat, high-Edge rolls can't miss — that's intended.** A +3 stat with a fully stacked +2 situational bonus (min total 7) literally cannot roll a 6−. This only happens when a maxed stat *and* two independent Edges align on the same roll — a narrow, earned case, not the norm. Read it as the fiction confirming the character has a sure thing in that moment, not a gap to patch.
 
 ### Safety tools
 
 - **Lines & veils.** A *line* is something that won't appear at all; a *veil* is something that happens "off-camera." Ask for any at Session Zero, and honor new ones raised mid-play immediately and without fuss.
 - **Tone check-ins.** Especially in **Horror** or any high-Lethality/Weirdness game, occasionally ask "Is this working for you? Want more or less of this?" Adjust intensity to the player's comfort. The goal is a thrilling story the player enjoys, not one that upsets them.
+
+### Example of Play (annotated)
+
+*A short transcript of the core loop in action — a 7–9 cost, a miss and hard move, a Push, and a status restatement. Lines marked **»** are commentary, not fiction; they flag which rule is firing. Featuring Sera Vane, the Fantasy Warrior pre-gen.*
+
+**GM:** Sera Vane picks through the flooded crypt, torchlight guttering off wet stone. Ahead, the corridor splits, and something skitters in the dark to your left. What do you do?
+
+**Player:** I listen carefully before moving further — what's making that noise?
+
+*» No roll. Nothing here is uncertain in a way where failure would be interesting yet, so the GM just narrates.*
+
+**GM:** You catch the wet drag of scales on stone, moving away, deeper in — not coming for you. The passage ahead narrows: the left fork smells of stagnant water, the right of old smoke.
+
+**Player:** I take the smoke-smelling passage, blade ready.
+
+**GM:** Twenty feet in, the smoke is a smoldering fire in a side chamber — and three skeleton warriors rise from around it, rusted blades already up. They've heard you. Roll Strike with Might if you're going in swinging.
+
+*» The fiction called for a move on its own — the GM named the move and stat, no target number invented.*
+
+**Player rolls Strike + Might: 8.**
+
+*» An 8 lands in the 7–9 band.*
+
+**GM:** You cave in a ribcage clean — first one drops. That's a full commitment on a surprised enemy, so it **fills 2 Harm**. *(» Strike's harm rule: 2 segments for a hit clearly amplified by position.)* But you're between the other two now, and one hooks your cloak, dragging you off balance — choose: take 1 Harm, or lose your footing and end the exchange on the ground.
+
+**Player:** I'll take the Harm and stay on my feet.
+
+**GM:** Mark 1 Harm — a rusted blade opens a shallow line across your forearm. Two left between you and the fire.
+
+*» The 7–9 cost economy: full success on the hit, paired with a cost from the universal menu (Harm, here) rather than negating it outright.*
+
+**Player rolls Strike + Might again: 4.**
+
+*» A 4 is a miss (6−).*
+
+**GM:** You overcommit — your blade skids off bone and one gets inside your guard. Hard move: it drives a blade into your side. Take 2 Harm, and you're **Compromised** — pinned against the wall, no clean way out.
+
+*» Hard move from the menu: "deal harm" + "put someone in a spot," proportional to a fight already telegraphed by "they've heard you."*
+
+**Player:** I don't want to go down here — can I push to turn that around?
+
+*» Push triggers after seeing a bad roll — this is exactly the moment it's for.*
+
+**GM:** Take a Condition, and that 4 becomes a 7–9 instead of a miss. What's it cost you?
+
+**Player:** I wrench my bad shoulder pulling free — mark **Wounded**.
+
+**GM:** Done. Reinterpreting: you shove off the wall and connect, but choose — take 1 Harm, or the last one ends up between you and the exit.
+
+**Player:** Let it block the exit. I'm not leaving without finishing this.
+
+**GM:** The second one crumples. The third is now between you and the way you came in, blade raised.
+
+*» Push didn't erase the danger — it converted a miss into "it works, but it costs you," exactly as intended.*
+
+**GM (restating status, unprompted, after the exchange):**
+
+```
+— STATUS —
+Character: Sera Vane (Warrior)  |  Harm: [x][x][ ][ ][ ]  |  XP: 3
+Conditions: Wounded
+Scene: Smoldering side-chamber, flooded crypt
+Clocks: none active
+On stage: Skeleton Warrior (1 Harm left), blocking the exit
+Used this scene/session: Push (this scene)
+Consumables remaining: Field bandages x1
+```
+
+*» Restating a compact STATUS block after a fight — the single most important consistency habit in the system, now also logging Push usage per the Used-this-scene/session line.*
 
 ---
 
@@ -552,11 +654,45 @@ When a scenario reaches an ending:
 
 ---
 
----
-
 ## Design lineage & credits
 
 EMBER's engine stands on the **Powered by the Apocalypse** family. The 2d6 **10+ / 7–9 / 6−** spread, fiction-first "moves," marking XP on a miss, and the GM principles ("be a fan of the character," "make a hard move," "play to find out") come from **Apocalypse World** by D. Vincent Baker & Meguey Baker. The fantasy framing and advancement owe a debt to **Dungeon World** (Sarah Richardson, Sage LaTorra, Adam Koebel), and the solo play and spark tables to **Ironsworn** by Shawn Tomkin. EMBER's own contributions are the genre-agnostic five-stat array, the Bite × Duration Scar system, the umbrella-genre lens structure, persistent characters with genre-lock and carryover, and the design for being run by an AI Game Master. With gratitude to those designers.
+
+---
+
+## GM Quick-Reference
+
+*One page, everything at a glance. Everything here is defined in full above — this is a lookup, not a new rule.*
+
+**Resolution:** `2d6 + stat (−1..+3) + situational (−2..+2)`
+- **10+** Full success. **7–9** Success at a cost. **6−** Miss — GM makes a hard move, player marks 1 XP.
+- A maxed stat (+3) + fully stacked situational (+2) cannot miss — that's intended, not a gap.
+
+**Harm you deal (Strike):** 1 segment baseline · 2 with an amplifying tag/weapon/position · 3 for an exploited weakness.
+
+**Harm to the player:** graze/minor 1 · solid hit 2 · boss/elite signature 2–3.
+
+**Condition/Scar cap:** total penalty from Conditions + Scars combined never exceeds **−2**.
+
+**Edge/Hindrance:** +1 when the fiction favors the player (tag, prep, position, help); −1 when it works against them (wounded, rushed, outnumbered). Cap ±2 total.
+
+**Push:** after seeing a bad roll, take a Condition to turn a 6− into a 7–9. Once per scene.
+
+**GM move menu (on a 6−, or a golden opportunity):** deal harm · separate them · take a resource · turn their move back on them · reveal an unwelcome truth · offer a hard bargain · advance a Clock · put someone in a spot.
+
+**7–9 cost menu:** time · noise/attention · a resource · position · a Condition · a Clock ticks · a hard choice.
+
+**XP:** mark 1 on every miss (uncapped, immediate). At end-of-session checkpoint, mark 1 each for: pursued your Drive? deepened a Bond?
+
+**XP costs:** 5 tag · 5 archetype move · 8 stat (+1, cap +3) · 8 Harden (reduce 1 incoming Harm/scene, permanent).
+
+**Standard Conditions (−1 each, stack toward the −2 cap):** Shaken · Wounded · Exhausted · Afraid · Compromised (name new ones freely).
+
+**Scars:** Bite (Cosmetic / Nagging / Crippling) × Duration (session / scenario / until healed / permanent). Exception, not routine.
+
+**Threat tiers:** Minor 1 Harm · Standard 3 Harm · Elite 5 Harm · Boss 5 Harm + Clock.
+
+**Track in state:** Harm, Conditions, XP, Clocks, scene/NPCs on stage, used-this-scene/session moves, consumables remaining. Restate the STATUS block often.
 
 ---
 

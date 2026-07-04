@@ -1,12 +1,16 @@
 # EMBER — Horror
 
+**Version:** 1.0 — see `CHANGELOG.md`
+
 *A Genre Pack for EMBER. Paste this together with `EMBER — Core Engine.md`. Uses only Core rules — no new subsystems.*
 
 **Tone & premise:** The ordinary world with something terribly wrong underneath it. Characters are usually not warriors but people — investigators, professors, survivors — pulled into events that erode their safety, their certainty, and their minds. In Horror, winning often means *surviving* and *understanding*, not conquering.
 
 **Default dials:** Lethality 2 · Magic/Tech 1 · Weirdness 3. Grittier starting array (**+2, +1, 0, 0, −1**). **Resolve** is your lifeline — it's your sanity.
 
-**Running Horror well:** lean hard on the Core safety tools — set lines & veils at Session Zero and check in on tone. Telegraph dread before harm. Use **Conditions** like *Afraid* and *Shaken* generously, and let **Resolve** stand in for sanity — a character who keeps losing Resolve-adjacent rolls is coming apart. Scars here are often *psychological* (Nagging, until-healed): nightmares, a tremor, a thing they can't stop seeing.
+**Running Horror well:** lean hard on the Core safety tools — set lines & veils at Session Zero and check in on tone. Telegraph dread before harm. Use **Conditions** like *Afraid* and *Shaken* generously, and let **Resolve** stand in for sanity. Scars here are often *psychological* (Nagging, until-healed): nightmares, a tremor, a thing they can't stop seeing.
+
+**Coming apart (the Unraveling Clock):** track a character's fraying sanity with a personal 6-segment **Clock** named *"Unraveling"* — plain Core machinery, no new subsystem. Tick it each time the character **misses a Resolve roll against the uncanny**. When it fills, they take a **psychological Scar** (Nagging or Crippling, per how bad the exposure was) and the Clock resets to empty. This makes "coming apart" a concrete, trackable state instead of GM feel — track it in the Save file alongside other active Clocks.
 
 ## Archetype menu
 
