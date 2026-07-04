@@ -24,6 +24,10 @@ Play is a conversation with a rhythm: the AI sets a scene and turns to you; you 
 
 You can play a quick one-hour adventure or a saga across many sessions. On desktop with a filesystem connection, the AI writes your progress to disk automatically as you go (see `PLAYING-ON-DESKTOP.md`); on mobile or other setups without file access, you'll copy the save block back yourself at checkpoints (see `PLAYING-ON-MOBILE.md`). Either way, you can stop anytime and pick up right where you left off.
 
+## Ready-made adventures
+
+Don't want to build a scenario from scratch? Browse the `Scenarios/` folder for prebuilt **Scenario Packs** — ready-to-run adventures organized by genre, each with everything you need to jump straight into a story.
+
 ## Who your character is
 
 You're defined by a few simple things:
