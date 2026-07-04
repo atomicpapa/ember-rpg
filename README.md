@@ -18,7 +18,7 @@ Paste the rules to an AI, tell it to run Session Zero, and play a solo adventure
 
 **You'll need two six-sided dice (2d6)** — physical dice or any dice-roller app. That's the only thing to bring; you roll, the AI runs everything else.
 
-**New to EMBER?** Read **[`EMBER — Player's Handbook.md`](EMBER%20%E2%80%94%20Player's%20Handbook.md)** first — it covers everything you need to play in plain language, without the rules meant for the AI.
+**New to EMBER?** Read **[`EMBER — Player's Guide.md`](EMBER%20%E2%80%94%20Player's%20Guide.md)** first — a plain-language overview of how the game works, without the rules meant for the AI.
 
 1. Paste **`EMBER — Core Engine.md`** plus one **Genre Pack** (e.g. `EMBER — Horror.md`) into your AI of choice.
 2. Tell it: *"Run Session Zero and be my Game Master."*
@@ -29,7 +29,7 @@ Paste the rules to an AI, tell it to run Session Zero, and play a solo adventure
 
 | File | What it is |
 |---|---|
-| `EMBER — Player's Handbook.md` | Player-facing rules only — read this to learn the game. (You don't paste this to the AI.) |
+| `EMBER — Player's Guide.md` | Plain-language overview of how the game works — read this first. (You don't paste this to the AI.) |
 | `EMBER — Core Engine.md` | The complete game + a baked-in Fantasy genre. Paste this to the AI. Playable on its own. |
 | `EMBER — Horror.md` / `EMBER — Science Fiction.md` / `EMBER — Apocalypse.md` | Lensed Genre Packs. |
 | `Character Sheet Template.md` | Blank, portable character sheet. |
