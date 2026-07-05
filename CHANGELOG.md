@@ -15,6 +15,7 @@ All notable rule changes to the EMBER Core Engine and Genre Packs, by version.
 - Added the first Horror example pack: `Scenarios/Horror/AA1 - The Ashworth Acquisition/` (module `AA1`, Cosmic lens, standalone) — also the first Scenario Pack to demonstrate the Horror pack's Unraveling Clock mechanic in a worked example.
 - Added a "Ready-made adventures" pointer to `EMBER — Player's Guide.md`, alongside the matching README pointer added in this same round, so players discover Scenario Packs from either doc.
 - Added a **"Built for Core Engine"** field to both Scenario templates and to every pack's docs — a ruleset-compatibility marker (not an independent pack version), documented in `Scenarios/README.md`.
+- Added `Scenario Folder README Template.md` (repo root) — both existing packs shipped a hand-written folder `README.md` explaining the Player/GM split, but no blank template existed for it and "Starting a new pack" in `Scenarios/README.md` never mentioned writing one; closes that gap.
 
 **Process note:** GitHub Releases are on hold for now, given how fast this repo is changing during active playtesting — `CHANGELOG.md` is the source of truth for what's shipped. The `v1.0` git tag remains as a historical marker, but its GitHub Release page was removed.
 

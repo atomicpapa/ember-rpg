@@ -20,4 +20,4 @@ Every pack's Player and GM docs carry a **"Built for Core Engine"** line (e.g. `
 
 ## Starting a new pack
 
-Copy `../Scenario Player Template.md` and `../Scenario GM Template.md` (repo root) and fill them in. Give the new pack its module code from the start (see "Module numbering" above) — don't ship it without one.
+Copy `../Scenario Player Template.md`, `../Scenario GM Template.md`, and `../Scenario Folder README Template.md` (repo root) and fill them in. Give the new pack its module code from the start (see "Module numbering" above) — don't ship it without one.
