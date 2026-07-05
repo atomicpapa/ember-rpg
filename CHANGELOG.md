@@ -9,10 +9,12 @@ All notable rule changes to the EMBER Core Engine and Genre Packs, by version.
 **New content type: Scenario Packs**
 - Added `Scenario Player Template.md` and `Scenario GM Template.md` (repo root) — reusable blank templates for prebuilt adventures: history, a main villain, 1+ sub-bosses, resolution conditions, and optional key scenes, built entirely on existing Core mechanics (enemy blocks, Clocks, Threat tiers).
 - Added a `Scenarios/` folder, organized by genre, with each pack split into a spoiler-safe Player doc and a GM-only doc.
-- Added a **difficulty scaling** convention (Fresh / Seasoned tiers) so a pack's villain can scale to a new character or a veteran one, and a **series-numbering** convention (`SB1`, `SB2`, ...) for scenarios with sequels, documented in `Scenarios/README.md`.
-- Added the first example pack: `Scenarios/Fantasy/The Sunken Bell/` (standalone, not yet part of a series).
+- Added a **difficulty scaling** convention (Fresh / Seasoned tiers) so a pack's villain can scale to a new character or a veteran one, documented in `Scenarios/README.md`.
+- Added a **module-numbering** convention: every scenario pack gets a `<Code>1` module code (a 2-3 letter abbreviation of its own name) from the moment it's written, so a first installment never needs renaming if it later earns a sequel. Supersedes an earlier draft of this convention that only added a code once a sequel existed.
+- Added the first example pack: `Scenarios/Fantasy/SB1 - The Sunken Bell/` (module `SB1`, standalone, not currently part of a series) — renamed from its original ship name to conform to the module-numbering convention above.
+- Added the first Horror example pack: `Scenarios/Horror/AA1 - The Ashworth Acquisition/` (module `AA1`, Cosmic lens, standalone) — also the first Scenario Pack to demonstrate the Horror pack's Unraveling Clock mechanic in a worked example.
 - Added a "Ready-made adventures" pointer to `EMBER — Player's Guide.md`, alongside the matching README pointer added in this same round, so players discover Scenario Packs from either doc.
-- Added a **"Built for Core Engine"** field to both Scenario templates and to The Sunken Bell's docs — a ruleset-compatibility marker (not an independent pack version), documented in `Scenarios/README.md`.
+- Added a **"Built for Core Engine"** field to both Scenario templates and to every pack's docs — a ruleset-compatibility marker (not an independent pack version), documented in `Scenarios/README.md`.
 
 **Process note:** GitHub Releases are on hold for now, given how fast this repo is changing during active playtesting — `CHANGELOG.md` is the source of truth for what's shipped. The `v1.0` git tag remains as a historical marker, but its GitHub Release page was removed.
 
