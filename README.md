@@ -43,7 +43,7 @@ Want a ready-made adventure instead of improvising from scratch? Browse **[`Scen
 | `BENCHMARK-SCENARIO.md` | A fixed, structured-playtesting harness for comparing AI models on identical setups — not actual play content. |
 | `PLAYTEST-LOG-TEMPLATE.md` | Structured log format for a deep playtest (rules exercised, drift incidents, save-file fidelity). Pairs with the benchmark scenario. |
 | `Scenario Player Template.md` / `Scenario GM Template.md` | Blank templates for building a Scenario Pack — a prebuilt adventure (history, a villain, sub-bosses, resolution conditions) the AI can run you through. |
-| `Scenarios/` | Scenario Packs — actual play content, organized by genre. See `Scenarios/README.md` for the pack structure and series-numbering convention. Each pack has a Player doc (safe to read) and a GM doc (spoilers — don't read it yourself). Start here: `Scenarios/Fantasy/The Sunken Bell/`. |
+| `Scenarios/` | Scenario Packs — actual play content, organized by genre. See `Scenarios/README.md` for the pack structure and module-numbering convention. Each pack has a Player doc (safe to read) and a GM doc (spoilers — don't read it yourself). Start here: `Scenarios/Fantasy/SB1 - The Sunken Bell/`. |
 
 ## Design lineage & credits
 
