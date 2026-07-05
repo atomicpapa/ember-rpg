@@ -54,7 +54,7 @@ He isn't cackling-villain evil — he believes, completely, that he's saving the
 
 **Victory:** the ritual is stopped before "The Tide Turns" fills (Seasoned tier) or the Cantor is defeated/driven off (Fresh tier) — either by breaking the recovered bell-clapper, defeating the Cantor directly, or getting the town evacuated and physically disrupting the ritual site before the tide turns.
 
-**Partial/costly victory:** the fight is won, but the Cantor escapes into the bay to try again elsewhere — a clean hook for a sequel, should one get written (see the Series convention in `Scenarios/README.md` if this becomes `SB2`).
+**Partial/costly victory:** the fight is won, but the Cantor escapes into the bay to try again elsewhere — a clean hook for a sequel, should one get written as `SB2` (see the module-numbering convention in `Scenarios/README.md`).
 
 **Failure:** "The Tide Turns" Clock fills completely (or, at Fresh tier, the Cantor simply succeeds because the hero couldn't stop him in time). Don't narrate a flat game-over — Fathoms-Deep's presence floods the low quarter of Graybell Cove permanently, transforming the town and creating a new standing threat or mystery. Something the story can keep moving through, not a dead end.
 

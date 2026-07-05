@@ -1,6 +1,6 @@
 # The Sunken Bell — Player
 
-*This file is safe to read — no spoilers. Don't read `The Sunken Bell - GM (Spoilers).md` in this same folder; that one's for the AI only.*
+*This file is safe to read — no spoilers. Don't read `SB1 - The Sunken Bell - GM (Spoilers).md` in this same folder; that one's for the AI only.*
 
 ---
 
@@ -39,4 +39,4 @@ Themes include drowning, disappearance, and a body of water that is not to be tr
 
 ---
 
-*Reminder: don't read `The Sunken Bell - GM (Spoilers).md` before or during play — it's written for the AI GM, and reading it will spoil your own game.*
+*Reminder: don't read `SB1 - The Sunken Bell - GM (Spoilers).md` before or during play — it's written for the AI GM, and reading it will spoil your own game.*
